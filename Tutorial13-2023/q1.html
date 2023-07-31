@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            padding: 25px;
+            width: 300px;
+            background-color: rgb(8, 134, 202);
+        }
+    </style>
+</head>
+<body>
+<form name="f" method="post" action="q1.php">
+    <div class="box">
+        <h1>Registration Form</h1>
+        <table>
+            <tr>
+                <td width="125">First Name</td>
+                <td><input type="text" name="fname"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lname" ></td>
+            </tr>
+            <tr>
+                <td>User Name</td>
+                <td><input type="text" name="uname"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pw"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="g" value="Male">Male<br><input type="radio" name="g" value="Female">Female</td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td><select name="year">
+                        <option value="1st Year">1st Year</option>
+                        <option value="2nd Year">2nd Year</option>
+                        <option value="3rd Year">3rd Year</option>
+                        <option value="4th Year">4th Year</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Phone No</td>
+                <td><input type="text" name="pno"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit" name="log"></td>
+            </tr>
+
+        </table>
+    </div>  
+   </form> 
+</body>
+</html>
